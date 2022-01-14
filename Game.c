@@ -101,7 +101,7 @@ int main()
     printf("\nThey found me");sleep(2);
     printf("\nI...................");sleep(2);
     printf("\nSignal Lost");sleep(2);
-    printf("\nSignal Reconnectin");sleep(2);
+    printf("\nSignal Reconnecting");sleep(2);
     printf("\nCat was shot");
     goto Begin;
   }
@@ -179,7 +179,7 @@ int main()
     printf("\nIt worked");sleep(2);
     printf("\nOh n......................");sleep(3);
     printf("\nSignal Lost");sleep(2);
-    printf("\nSignal Reconnectin");sleep(2);
+    printf("\nSignal Reconnecting");sleep(2);
     printf("\nCat was shot");
     goto Begin;
   }
