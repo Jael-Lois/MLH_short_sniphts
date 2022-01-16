@@ -3,14 +3,11 @@
 #include<unistd.h>
 int main()
 {
-  
   // Gentiles are non jewish people
   sleep(3);
   printf("\nHello");
   sleep(2);
-  printf("\nHow are you?");
-  sleep(2);
-  printf("\nI am fine by the grace of God");
+  printf("\nI am fine by the grace of God,how are you?");
   sleep(2);
   printf("\nGood to see that you are fine too");
   sleep(2);
