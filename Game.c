@@ -6,7 +6,15 @@
 int main()
 {
 
+  //Well I am still updating the Game.....
+  
   int a;
+
+  Begin:
+
+  system("cls");
+
+  printf("This game is created by Jael Lois \n Github Handle - Jael-Lois\n\n\n\n");
 
   printf("\nEnter for choice : 1 or 2");
   printf("\n__________________________________________________________________________");
@@ -37,10 +45,13 @@ int main()
   printf("\nIt is a matter of life or death");
   sleep(2);
   printf("\nI really need help now");sleep(2);
+
   printf("\n\nCHOICE");
   printf("\nOk I will help(1)");
+  printf("\nI am bloking this number(2)")
   scanf("%d",&a);
-  a = a>2 ? a%2 + 1 : a;
+
+
   if(a==1)
   {
     printf("\nThank you");
@@ -55,6 +66,11 @@ int main()
     sleep(2);
     printf("\nI don't know what to do");
     sleep(2);
+  }
+  else
+  {
+    printf("But I.........");
+    goto Begin;
   }
   sleep(2);
   printf("\n\nCHOICE");
@@ -186,6 +202,7 @@ int main()
   printf("\n\nCHOICE");
   printf("\nTry to pick the lock(1)");
   printf("\nBreak the lock by using the wrench(2)");
+  scanf("%d",&a);
 
   printf("\nOk... the car is slowing down");sleep(2);
   printf("\nGo!");sleep(2);
@@ -230,11 +247,67 @@ int main()
   printf("\nYou know they can't track you GPS and all");sleep(2);
   printf("\nHe gave me this number in case of emergency");sleep(2);
   printf("\nAnd you are the one who answered the phone");sleep(2);
-  printf("\nAnyway thanks again");sleep(2);
-  printf("\nBye");
+  printf("\nAnyway thanks again");sleep(4);
 
-  Begin:
-  printf("\nEnd of the GAME");
-  printf("\n__________________________________________________________________________");
+  char name[20];
+  printf("\n\nWell I think I have to go to see Andrew\n");sleep(2);
+  printf("Well I am Cat but you already know that\n");sleep(2);
+  printf("What is your name by the name ?\n");
+  scanf("%s",name);
+  printf("Well nice to meet you %s",name);
+
+  printf("\n\nCHOICE");
+  printf("\n....(1)");
+  printf("\nSo am I(2)");
+  scanf("%d",&a);
+
+  printf("\nI will tell you one I am there %s",name);sleep(2);
+  printf("\nCat is busy");sleep(50);
+
+  printf("\nThey have killed him!");sleep(2);
+
+  printf("\n\nCHOICE");
+  printf("\nCalm down I am listening(1)");
+  printf("What?(2)");
+  scanf("%d",&a);
+
+  printf("\nThey have killed, I know it");sleep(2);
+  printf("\nI showed up at the meeting place");sleep(2);
+  printf("\nThere was an ambulance");sleep(2);
+  printf("\nThere was a big crowd");sleep(2);
+  printf("\nAnd I SAW HIM DEAD!");sleep(2);
+
+  printf("\n\nCHOICE");
+  printf("\nYou need to get to a safe place(1)");
+  printf("\nWill you be safe there?(2)");
+
+  printf("\nYou are right I have to keep these files safe");sleep(2);
+  printf("\nI am going to Raw Temple");sleep(2);
+  printf("\nThere is a person named Marcos");sleep(2);
+  printf("\nHe will help me to take a look at these files");sleep(2);
+  printf("\nI need to get there safe");sleep(2);
+  printf("\nTell me a safe route to get there");sleep(2);
+
+  printf("\n\nCHOICE");
+  printf("\nYou should disguise yourself as something(1)");
+  printf("\nYou can go by bus(2)");
+  scanf("%d",&a);
+
+  if(a==1)
+  {
+    printf("\nWell I did not think of that");sleep(2);
+    printf("\nBut I don't have time");sleep(2);
+  }
+
+  printf("\nI think I am gonna go by bus");sleep(2);
+  printf("\nI will text you when I am there");sleep(2);
+  printf("\nCat is busy");sleep(50);
+
+
+
+
+  goto Begin;
+ 
   return 0;
+  
 }
