@@ -6,8 +6,6 @@
 int main()
 {
 
-  //Well I am still updating the Game.....
-  
   int a;
 
   Begin:
@@ -304,10 +302,25 @@ int main()
   printf("\nCat is busy");sleep(50);
 
 
+  printf("\nI just feel like someone is gonna come inside the bus and shot me");sleep(2);
+  printf("\nI am still freking out");sleep(2);
+  printf("\nNote to self:Don't die");sleep(2);
+  printf("\nWhat a wonderful plan!");sleep(2);
+  printf("\nSorry I text a lot when I am FREKING OUT");sleep(50);
+  printf("\nCat is busy");sleep(2);
+
+  printf("\nI am here");sleep(2);
+  printf("\nI am gonna have something eat or drink");sleep(2);
+  printf("\nI am the kind of person who likes to have both");sleep(2);
+  printf("\nAnd some rest OF COURSE");sleep(50);
+  printf("\nCat is busy");sleep(2);
+
+
+
 
 
   goto Begin;
- 
+
   return 0;
-  
+
 }
