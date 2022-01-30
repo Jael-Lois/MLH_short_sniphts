@@ -6,5 +6,7 @@ Major League Hacking. @MLHacks. We are the global community for student hackers.
 ## Things I have learnt:
 - Reversing a string
 - Caesar cipher
+- Sleep
+- Clear screen
 
 # 👍👍
