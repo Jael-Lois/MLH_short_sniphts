@@ -5,9 +5,10 @@
 
 int main()
 {
-  
+
+
   //Still doing some uptades
-  
+
   int a;
 
   Begin:
@@ -48,7 +49,7 @@ int main()
 
   printf("\n\nCHOICE");
   printf("\nOk I will help(1)");
-  printf("\nI am bloking this number(2)")
+  printf("\nI am bloking this number(2)");
   scanf("%d",&a);
 
 
@@ -69,8 +70,8 @@ int main()
   }
   else
   {
-    printf("But I.........");
-    goto Begin;
+    printf("But I.........");sleep(10);
+    goto car;
   }
   sleep(2);
   printf("\n\nCHOICE");
@@ -175,6 +176,9 @@ int main()
 
   printf("\nThey are coming toward me...........");sleep(20);
   printf("\nThey caught up with me!");sleep(2);
+
+  car:
+
   printf("\nI am trapped inside a trunk of a car");sleep(2);
   printf("\nGood thing I hid my phone just in time");sleep(2);
   printf("\nThere's got to be a way out of this car");sleep(2);
